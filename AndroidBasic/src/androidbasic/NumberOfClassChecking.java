@@ -16,7 +16,8 @@ public class NumberOfClassChecking {
         System.out.println("Enter class hour");
         r = input.nextInt();
         if (n>0 && r>0 && n>=r) {
-            System.out.println("Total class hour:"+n/r);
+            float total = n/r;
+            System.out.println("Total class hour:"+total);
         }
         else {
             System.out.println("Please provide valid information!");
